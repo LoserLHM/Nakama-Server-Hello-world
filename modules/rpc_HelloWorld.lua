@@ -6,7 +6,7 @@ local function get_HelloWorld(context, payload)
 
   nk.logger_info(("Payload: HelloWorld"):format(json))
 
-  return nk.json_encode({"HelloWorld"})
+  return nk.json_encode({"Hello-World"})
 end
 
 nk.register_rpc(get_HelloWorld, "SayHelloWorld_rpc_func_ID")
