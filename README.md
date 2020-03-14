@@ -22,8 +22,8 @@ I tried to use the docker toolbox, but eventually I decide to clone a Windows Pr
  Server-side Lua and Golang
  
  
- It has not much difficult on both lua and Golang coding, one reason of that is the purposes is simple.Secondly, is the document and the language itself is easy to follow.
-    At the first time i was using Lua and it just took me a couple hours to understand language structure, but of course is the basic structure that I could use from here not the whole language.
+   I was struggle in both language Lua and golang, since I don't have any knowledge of their structures. In a couple hours of try and error by following the document on my own, I decide to ask someone.So I pushed a post about my scenario(https://forum.heroiclabs.com/t/about-add-a-customize-function-on-nakama/526), 
+   At the first time i was using Lua and  but of course is the basic structure that I could use from here not the whole language.
 However, the compiling problem on Golang has bother me for a while, and that's the reason I chose lua to do the quiz at the beginning.It turns out a promble with the version of the Nakama server and the compile Builder. I updated Nakama server form 2.9.1 to 2.11.0 and use the 2.11.0 docker compile Builder the server is successfully run. After this problem solved the tasks finished smoothly, but honestly I didn't spend that much time on Golang structure and I might need to learn again it from the bottom.
     
 Client-side (Unity)-
