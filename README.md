@@ -31,7 +31,8 @@ Client-side (Unity)-
   Unity and C# is familiar tools to me, because of that this part is kind a smooth. Before before I start the whole project, I have already studied the YouTube video publish by Heroic Labs (https://www.youtube.com/channel/UC9vXzwdHUz6EnJFdUiXk_jQ) . I have followed along with these tutorial YouTube video 4,5,6 to learn more about how Nakama server interact unity client.In the end I still have to find a RPC statements on the document (https://heroiclabs.com/docs/unity-client-guide/) instead of YouTube video. I still have some troubles about getting to RPC function, but that's soft by another reply on the above post from HeroicLabs.And that is successfully complete the project of the hello world with Lua.
 
 
-Converter to golang
+Convert to Golang
 
-  The compiling problem on Golang has bother me for a while, and that's the reason I chose lua to do the quiz at the beginning.It turns out a promble with the version of the Nakama server and the compile Builder. I updated Nakama server form 2.9.1 to 2.11.0 and use the 2.11.0 docker compile Builder the server is successfully run. After this problem solved the tasks finished smoothly, but honestly I didn't spend that much time on Golang structure and I might need to learn again it from the bottom.
+  The compiling problem on Golang has bother me for a while, and that's the reason I chose lua to do the quiz at the beginning.It turns out a promble with the version of the Nakama server and the compile Builder. I updated Nakama server form 2.9.1 to 2.11.0 and use the 2.11.0 docker compile Builder the server is successfully run. After this problem solved the tasks finished smoothly,by compared the Lua script and the Golang script examples I was quickly modified the golang script examples and make it work on the HelloWorld function i need.
+  Although,the server side with Golang script are smoothly run, but honestly I didn't spend that much time on Golang structure and I might need to learn again it from the bottom.
     
