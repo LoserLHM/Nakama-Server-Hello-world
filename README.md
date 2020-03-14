@@ -16,7 +16,7 @@ Brief description---
 Beginning setting up and installation
 
 
-  At the setup Phase, I'm having trouble on the environment which the nakama server required on.Since I don't have a proper environment for nakama server binary setup or docker either Linux, Mac or Windows Pro. 
+  At the setup phase, I've tried to follow the guide on Nakama document (https://heroiclabs.com/docs/install-docker-quickstart/). On this point,I was having a trouble on the environment, which the nakama server required on.Since I don't have a proper environment for nakama server binary setup or docker either Linux, Mac or Windows Pro. 
 I tried to use the docker toolbox, but eventually I decide to clone a Windows Pro on my old computer, which successfully launched the server with docker.
   
  Server-side Lua and Golang
